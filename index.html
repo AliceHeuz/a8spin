@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Best diagram ever</title>
+<style>
+div {
+    position: fixed;
+    height: 60vh;
+    width: 60vw;
+    left: 20vw;
+    top: 20vh;
+    background-image: url("awesome_diagram.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-animation: rotating 5s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+    from{
+    -webkit-transform: rotate(0deg);
+    }
+    to{
+    -webkit-transform: rotate(360deg);
+    }
+}
+</style>
+<body>
+    <div></div>
+</body>
+</html>
